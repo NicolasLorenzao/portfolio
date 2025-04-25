@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         hamburger.classList.toggle('active');
         navLinks.classList.toggle('active');
     });
-    document.addEventListener('DOMContentLoaded', function () {
 
         const aumentaFonteBotao = document.getElementById('aumentar-fonte');
         const diminuiFonteBotao = document.getElementById('diminuir-fonte');
@@ -16,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let tamanhoAtualFonte = 1;
     
         aumentaFonteBotao.addEventListener('click', function () {
-            tamanhoAtualFonte += 0.1;giy
+            tamanhoAtualFonte += 0.1;
             document.body.style.fontSize = `${tamanhoAtualFonte}rem`
     
         })
@@ -27,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
         })
 
-    });
 
     document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', () => {
